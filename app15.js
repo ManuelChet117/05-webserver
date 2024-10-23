@@ -36,6 +36,14 @@ app.get('/elements', (req,res) => {
     })
 })
 
+//app.get('/generic', (req,res)=> {
+//    res.sendFile(__dirname + '/public3/generic.html')
+//})
+
+//app.get('/elements', (req,res)=> {
+//    res.sendFile(__dirname + '/public3/elements.html')
+//})
+
 app.get('*', (req,res)=> {
     res.sendFile(__dirname + '/public/404.html')
 })
